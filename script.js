@@ -1,17 +1,10 @@
-class Change{
-    constructor(q,d,n,p){
-        this.q=q;
-        this.d=d;
-        this.n=n;
-        this.p=p;
-    }
-}
 
 const makeChange = (c) => {
   // your name here Penny: 0.01
   // Nickel: 0.05
   // Dime: 0.10
   // Quarter: 0.25
+  c=Number(c);
   let p=1;
   let n=5;
   let d=10;
