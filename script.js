@@ -27,7 +27,7 @@ const makeChange = (c) => {
   c=c%d;
   cn=Math.floor(c/n);
   c=c%n;
-  cq=Math.floor(c/q);
+  cp=Math.floor(c/p);
   return new Change(cq,cd,cn,cp);
   
 };
